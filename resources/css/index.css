@@ -1,9 +1,16 @@
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
     font-size: 14px;
-    font-family: sans-serif;
+    font-family: 'Montserrat';
     letter-spacing: 0.50px;
     font-weight: 400;
-
 }
 
 div {
@@ -138,15 +145,38 @@ hr {
     line-height: 35px;
 }
 
+#Section-no9 img {
+    width: 15px;
+}
+
 #Section-no9 .bold {
     padding-right: 20px;
 }
 
 #Section-no10 {
     border-top: 1px solid #e9e9e9;
+    background-color: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flexbox;
+    float: left;
+    position: relative;
+    margin: 0 auto;
+}
 
+#Section-no10 section {
+    text-align: center;
+    float: left;
+    position: relative;
+    padding: 15px;
+    margin: 0 auto;
+}
 
-    position: -webkit-sticky;
-    position: sticky;
-    top: 50px;
+#Section-no10 img {
+    width: 30px;
+}
+
+#Red-colour {
+    color: #ff003c
 }
